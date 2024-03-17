@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.edu.ifpe.recife.gcms.WebApp.WebAppApplicationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-03-17T04:17:48" hostname="DESKTOP-ORKJNJV" time="1.831">
+  <properties/>
+  <testcase name="shouldReturnDefaultMessage()" classname="br.edu.ifpe.recife.gcms.WebApp.WebAppApplicationTests" time="1.818"/>
+  <testcase name="shouldReturnHelloJamillyMessage()" classname="br.edu.ifpe.recife.gcms.WebApp.WebAppApplicationTests" time="0.011"/>
+  <system-out><![CDATA[01:17:46.209 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [br.edu.ifpe.recife.gcms.WebApp.WebAppApplicationTests]: WebAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:17:46.395 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration br.edu.ifpe.recife.gcms.WebApp.WebAppApplication for test class br.edu.ifpe.recife.gcms.WebApp.WebAppApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.3)
+
+2024-03-17T01:17:47.036-03:00  INFO 9376 --- [WebApp] [    Test worker] b.e.i.r.g.WebApp.WebAppApplicationTests  : Starting WebAppApplicationTests using Java 17.0.6 with PID 9376 (started by jamilly in C:\Users\jamilly\Downloads\pratica2-gmcs\Pratica-2\WebApp)
+2024-03-17T01:17:47.039-03:00  INFO 9376 --- [WebApp] [    Test worker] b.e.i.r.g.WebApp.WebAppApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-03-17T01:17:48.655-03:00  INFO 9376 --- [WebApp] [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-03-17T01:17:48.656-03:00  INFO 9376 --- [WebApp] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-03-17T01:17:48.659-03:00  INFO 9376 --- [WebApp] [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-03-17T01:17:48.706-03:00  INFO 9376 --- [WebApp] [    Test worker] b.e.i.r.g.WebApp.WebAppApplicationTests  : Started WebAppApplicationTests in 2.064 seconds (process running for 4.13)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = br.edu.ifpe.recife.gcms.WebApp.HomeController
+           Method = br.edu.ifpe.recife.gcms.WebApp.HomeController#greeting()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"text/plain;charset=UTF-8", Content-Length:"12"]
+     Content type = text/plain;charset=UTF-8
+             Body = Hello, World
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /jamilly
+       Parameters = {}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = br.edu.ifpe.recife.gcms.WebApp.HomeController
+           Method = br.edu.ifpe.recife.gcms.WebApp.HomeController#greetingFulano()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:"text/plain;charset=UTF-8", Content-Length:"15"]
+     Content type = text/plain;charset=UTF-8
+             Body = Hello, Jamilly!
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

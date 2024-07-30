@@ -20,4 +20,9 @@ public class HomeController {
 	public @ResponseBody String alteracao() {
 		return "Alteracao para fazer commit - prática 3";
 	}
+	
+	@RequestMapping("/alteracao-copia")
+	public @ResponseBody String alteracao() {
+		return "Criação de uma cópia para simular um trabalho paralelo";
+	}
 }

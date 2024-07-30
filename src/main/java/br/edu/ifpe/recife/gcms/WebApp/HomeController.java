@@ -20,4 +20,9 @@ public class HomeController {
 	public @ResponseBody String alteracao() {
 		return "Alteracao para fazer commit - prática 3";
 	}
+	
+	@RequestMapping("/alteracao-original")
+	public @ResponseBody String alteracao2() {
+		return "Alteracao no original";
+	}
 }

@@ -15,4 +15,9 @@ public class HomeController {
 	public @ResponseBody String greetingJamilly() {
 		return "Hello, jamilly";
 	}
+	
+	@RequestMapping("/gcms")
+	public @ResponseBody String alteracao() {
+		return "Alteracao para fazer commit - prática 3";
+	}
 }

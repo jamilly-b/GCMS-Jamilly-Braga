@@ -25,4 +25,9 @@ public class HomeController {
 	public @ResponseBody String alteracao2() {
 		return "Alteracao no original";
 	}
+	
+	@RequestMapping("/alteracao-copia")
+	public @ResponseBody String alteracaoCopia() {
+		return "Criação de uma cópia para simular um trabalho paralelo";
+	}
 }

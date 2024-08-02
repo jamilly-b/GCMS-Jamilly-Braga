@@ -30,4 +30,9 @@ public class HomeController {
 	public @ResponseBody String alteracaoCopia() {
 		return "Criação de uma cópia para simular um trabalho paralelo";
 	}
+	
+	@RequestMapping("/hotfix")
+	public @ResponseBody String branchHotfix() {
+		return "branch hotfix";
+	}
 }

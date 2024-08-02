@@ -16,11 +16,6 @@ public class HomeController {
 		return "Hello, jamilly";
 	}
 	
-	@RequestMapping("/gcms")
-	public @ResponseBody String alteracao() {
-		return "Alteracao para fazer commit - prática 3";
-	}
-	
 	@RequestMapping("/alteracao-original")
 	public @ResponseBody String alteracao2() {
 		return "Alteracao no original";
@@ -29,5 +24,10 @@ public class HomeController {
 	@RequestMapping("/alteracao-copia")
 	public @ResponseBody String alteracaoCopia() {
 		return "Criação de uma cópia para simular um trabalho paralelo";
+	}
+	
+	@RequestMapping("/hotfix")
+	public @ResponseBody String branchHotfix() {
+		return "branch hotfix";
 	}
 }

@@ -32,23 +32,4 @@ class WebAppApplicationTests {
 			.andExpect(content()
 					.string(containsString("Hello, jamilly")));
 	}
-	
-	@Test
-	public void shouldReturnBranchHotfix() throws Exception {
-		this.mockMvc.perform(get("/hotfix"))
-		.andDo(print()).andExpect(status().isOk())
-		.andExpect(content()
-				.string(containsString("branch hotfix")));
-	}
-
-	@Test
-	public void shouldReturnDefaultMessage2() throws Exception {
-		this.mockMvc.perform(get("/augusto")).andDo(print()).andExpect(status().isOk())
-		this.mockMvc.perform(get("/Aaugusto")).andDo(print()).andExpect(status().isOk())
-				.andExpect(content().string(containsString("Olá, Augusto!")));
-	}
-
-		this.mockMvc.perform(get("/hotfix")).andDo(print()).andExpect(status().isOk())
-				.andExpect(content().string(containsString("Olá, Hotfix!")));
-	}
 }
